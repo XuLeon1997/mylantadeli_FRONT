@@ -1,0 +1,81 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.alignReference b{
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  padding-right: 60px;
+}
+
+.alignReference b::after {
+  content: "";
+  position: absolute;
+  rigth: 30px;
+}
+
+.alignReferenceBoutique b{
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  padding-right: 60px;
+}
+
+.alignReferenceBoutique b::after {
+  content: "";
+  position: absolute;
+  rigth: 30px;
+}
+
+.alerte1{
+  color: red;
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.informationProduit{
+  position:absolute;
+  right: 130px;
+  top: 160px;
+}
+
+@media only screen and (max-width: 768px)  {
+  .informationProduit{
+    position:relative;
+    right: -25vw;
+    top: auto;
+  }
+}
+
+.notificationButton{
+  position: absolute;
+  top:12px;
+  right:16px;
+}
